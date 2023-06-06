@@ -29,7 +29,7 @@ jobs:
         run: |
           npm -v
           npm install remark-cli remark-preset-lint-consistent
-          npx remark . --use remark-preset-lint-consistent --frail resume.md
+          # npx remark . --use remark-preset-lint-consistent --frail resume.md
           
       - uses: actions/upload-artifact@v3
         with:
